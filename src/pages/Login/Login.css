@@ -27,3 +27,51 @@
   .login .text h1 {
     font-size: 40px;
   }
+
+
+
+
+
+main {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.form-control {
+    border: 0;
+    border-bottom: 2px solid #f1f1f1;
+    color: #9492ee !important;
+}
+
+.form-control::placeholder {
+    color: #9492ee;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0;
+    border-bottom: 2px solid #9492ee;
+}
+
+.btn {
+    background-color: #9492ee;
+    border: none;
+    font-size: 1.25em;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem #9492ee80;
+}
+
+.f-pass {
+    color: #ccc;
+}
+
+.f-pass:hover {
+    color: #9492ee;
+}
