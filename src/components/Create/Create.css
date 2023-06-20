@@ -45,3 +45,9 @@
     z-index: 1;
     border-radius: 5px;
   }
+  .image-preview {
+    width: 100%;
+  }
+  .img-height{
+    height: 300px;
+  }

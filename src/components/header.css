@@ -44,8 +44,7 @@ header {
     margin-right: 20px;
   }
   .profile button {
-    font-size: 17px;
-    font-weight: 500;
+    background: none;
   }
   .profile img {
     width: 40px;

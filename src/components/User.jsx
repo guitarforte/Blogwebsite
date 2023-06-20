@@ -5,7 +5,9 @@ import { AiOutlineHeart } from "react-icons/ai"
 import { GrHelp } from "react-icons/gr"
 import { BiLogOut } from "react-icons/bi"
 import { RiImageAddLine } from "react-icons/ri"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+
+
 
 export const User = () => {
   const user = true
@@ -17,12 +19,16 @@ export const User = () => {
     outline : 'none',
     textDecoration: 'none'
   }
+  const userImage = {
+  border: 'none',
+  backgroudColor: 'none'
+  }
   return (
     <>
       <div className='profile'>
         {user ? (
           <>
-            <button className='img' onClick={() => setProfileOpen(!profileOpen)}>
+            <button className='img' style={userImage} onClick={() => setProfileOpen(!profileOpen)}>
               <img src='https://scontent.flos1-2.fna.fbcdn.net/v/t39.30808-1/247865479_103305475485118_3744718944095803205_n.jpg?stp=dst-jpg_p160x160&_nc_cat=108&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeFy9RAmMyuCR7uaMoR4jBqJ2A-6Br4CHrDYD7oGvgIesCCOJZr4Bg8p3jCu__m26EwTRBxoXHHVX7mEGq_269JF&_nc_ohc=1odeVHTgcioAX9DlLVb&_nc_ht=scontent.flos1-2.fna&oh=00_AfA6nAxsBp4Aa-s6OM9bWGHX0XXQRkc-YdBCf6eaTMf-og&oe=649508D8' alt='' />
             </button>
             {profileOpen && (
