@@ -1,6 +1,6 @@
 import React from "react"
-import "./login.css"
-import back from "../../assets/images/my-account.jpg"
+import "./Login.css"
+import back from "../../images/my-account.jpg"
 
 export const Regsiter = () => {
   return (

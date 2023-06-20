@@ -23,6 +23,11 @@
     padding: 0;
     box-shadow: none;
     border: none;
+
+  }
+  form {
+    display: flex;
+    flex-direction: column;
   }
   .newPost .inputfile input {
     width: 100%;

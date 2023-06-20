@@ -13,6 +13,10 @@ export const User = () => {
   const close = () => {
     setProfileOpen(false)
   }
+  const style = {
+    outline : 'none',
+    textDecoration: 'none'
+  }
   return (
     <>
       <div className='profile'>
@@ -34,13 +38,13 @@ export const User = () => {
                     </div>
                   </div>
                 </Link>
-                <Link to='/create'>
-                  <button className='box'>
+                <Link style={style} to='/create'>
+                  <button  className='box'>
                     <RiImageAddLine className='icon' />
                     <h4>Create Post</h4>
                   </button>
                 </Link>
-                <Link to='/login'>
+                <Link style={style} to='/login'>
                   <button className='box'>
                     <IoSettingsOutline className='icon' />
                     <h4>My Account</h4>

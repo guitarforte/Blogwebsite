@@ -7,6 +7,8 @@ import { Footer }  from "./components/Footer";
 import { Create } from "./components/Create/Create";
 import { Login } from "./pages/Login/Login"
 import { Account } from "./pages/Account/account";
+import { DetailsPages } from "./pages/DetailsPage/DetailPage";
+import {  Regsiter } from "./pages/Login/Register";
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
         <Routes>
         <Route path="/" element={ <Home/> } />
         <Route  path='/login' element={<Login/>} />
+        <Route  path='/register' element={<Regsiter/>} />
+         <Route  path='/details/:id' element={<DetailsPages/>} />
         <Route  path='/account' element={<Account/>} />
         <Route path="/create" element={ <Create/> } />
         </Routes>
