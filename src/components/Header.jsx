@@ -14,7 +14,9 @@ export const Header = () => {
     <>
       <header className='header'>
         <div className='scontainer flex'>
+        <Link to="/">
             <img src={logo} alt='logo' width='50px' />
+            </Link>
         <nav>
             <ul>
               {nav.map((link) => (
