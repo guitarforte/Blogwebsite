@@ -89,13 +89,27 @@ header {
     z-index: 9999;
     background: #fff;
   }
+
+  .myimage {
+    border: none;
+    background-color: none;
+    margin-left : 29%;
+    }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 760px) {
     header .search {
       display: none;
     }
     nav {
       display: none;
+    }
+    .myimage { 
+      margin-left: 200px;
+    }
+  }
+  @media (max-width:300px) {
+    .myimage { 
+      margin-left: 100px;
     }
   }
   
